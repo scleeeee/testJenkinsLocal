@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment {
-        SCRIPT_PATH = '/script'
+        SCRIPT_PATH = '/var/jenkins_home/custom/test'
     }
     tools {
         gradle 'gradle 8.11.1'

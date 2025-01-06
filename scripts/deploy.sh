@@ -1,9 +1,9 @@
 #!/bin/bash
 # 작업 디렉토리를 /var/jenkins_home/custom/snapcampus으로 변경
-cd /var/jenkins_home/custom/snapcampus
+cd /var/jenkins_home/custom/test
 
 # 환경변수 DOCKER_APP_NAME : 컨테이너 메인 이름
-DOCKER_APP_NAME=spring-snapcampus
+DOCKER_APP_NAME=test
 LOG_FILE=./deploy.log
 
 # 실행중인 blue가 있는지 확인
