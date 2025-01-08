@@ -3,7 +3,7 @@
 cd /var/jenkins_home/custom/test
 
 # 환경변수 DOCKER_APP_NAME : 컨테이너 메인 이름
-DOCKER_APP_NAME=test
+DOCKER_APP_NAME=spring-test
 LOG_FILE=./deploy.log
 
 # 실행중인 blue가 있는지 확인
