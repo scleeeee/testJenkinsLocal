@@ -21,7 +21,7 @@ pipeline{
             steps {
                 withCredentials([file(credentialsId: 'testBiz', variable: 'testBiz')]) {
                     script {
-                        sh 'cp testBiz ./src/main/resources/application-prod.yml'
+                        sh 'cp test ./src/main/resources/application-prod.yml'
                     }
                 }
             }
