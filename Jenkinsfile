@@ -19,9 +19,9 @@ pipeline{
         }
         stage('Replace Prod Properties') {
             steps {
-                withCredentials([file(credentialsId: 'testBiz', variable: 'testBiz')]) {
+                withCredentials([file(credentialsId: 'prod', variable: 'prod')]) {
                     script {
-                        sh 'cp test ./src/main/resources/application-prod.yml'
+                        sh 'cp prod ./src/main/resources/application-prod.yml'
                     }
                 }
             }
